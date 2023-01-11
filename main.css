@@ -1,7 +1,7 @@
 .bar
 {
-    padding: 10px 0px;
-    background-color: blue;
+    padding: 1rem 0rem;
+    background-color: rgba(15,10,222,0.2);
     color: white;
     width: 100%;
     height: auto;
@@ -18,19 +18,19 @@ body
 {
     margin: 0px;
     padding-top: 0;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    background-repeat:no-repeat ;
 }
 #navBar 
 {
-    background-color: blue ;
     padding: 0px;
     width: 100%;
-    align-items: center;
     text-align: center;
     overflow: hidden;
 }
 #navBar *
 {
-    font-size: large;
+    font-size: clamp(10px, 1vw, 100000px);
     display: inline-block;
 }
 .header
@@ -38,12 +38,11 @@ body
     padding-top: 30px;
     padding-bottom: 20px;
     color: black;
-    background-image: url('\photo\background.jpg');
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
     height:100%;
-    
 }
 .topHeader
 {
@@ -80,11 +79,13 @@ a:active
 {
     margin-bottom: 0;
     margin-left: 20%;
+    font-size: clamp(20px, 2vw, 100000px);
 }
 .subHeader
 {
     padding-top: 10px;
     margin: 0;
+    font-size: clamp(15px, 1.5vw, 1000000px);
 }
 .name
 {
@@ -94,23 +95,99 @@ a:active
 {
     margin: 0;
 }
-.assessmentTable, th, td 
+.assessmentTable1, .assessmentTable2, .assessmentTable3
 {
     border: 1px solid black;
-    width: auto;
+    width: 60%;
 }
 #navBarButton:hover
 {
     color: black;
 }
 
-.Top_info_1
+
+.avatar_1
 {
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 120%;
+    width: 90%;
+    height: auto;
+    
 }
-.avatar
+.avatar_2
+{
+    width: 100%;
+    height: auto;
+}
+.avatar_3
+{
+    width: 90%;
+    height: auto;
+}
+.avatar_4
+{
+    width: 90%;
+    height: auto;
+}
+.Top_info table
+{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.Top_info table td
+{
+    width: 10%;
+}
+.Top_info h3, .Top_info h4, .Top_info p, .Top_info a
+{
+    font-size: clamp(14px, 1.4vw, 100000px);
+}
+.tools
+{
+    float: left;
+    width: 6%;
+    height: auto;
+    align-items: center;
+    font-size: 2vw;
+}
+.first_tool
+{
+    padding-left: 27.2%;
+    width: 92%;
+    height: auto;
+}
+.all_tools::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.reminder
+{
+    text-align: center;
+    font-size: clamp(12px, 1.2vw, 100000px);
+}
+.text_III_IV .subHeader, .text_III_IV .subHeader
+{
+    padding-left: 23%;
+    font-size: clamp(17px, 1.7vw, 100000px);
+}
+.subHeader_V .subHeader
+{
+    text-align: center;
+    font-size: clamp(20px, 2.0vw, 100000px);
+}
+.assessmentTable1
 {
     margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(12px, 1.2vw, 100000px);
+    text-align: center;
+}
+.end
+{
+    font-size: clamp(10px, 1vw, 100000px);
+}
+.careerPlan *
+{
+    list-style-type: disc;
+    font-size: x-large;
 }
