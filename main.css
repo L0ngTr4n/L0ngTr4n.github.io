@@ -59,8 +59,8 @@ body
 li
 {
     list-style-type: none;
-    padding-left: 4.1%;
-    padding-right: 4.2%;
+    padding-left: 3.2%;
+    padding-right: 3.2%;
 
 }
 a
@@ -165,7 +165,7 @@ a:active
     text-align: center;
     font-size: clamp(12px, 1.2vw, 100000px);
 }
-.text_III_IV .subHeader, .text_III_IV .subHeader
+.text_III_IV .subHeader
 {
     padding-left: 23%;
     font-size: clamp(17px, 1.7vw, 100000px);
@@ -200,7 +200,45 @@ html, body{
 }
 .description
 {
-    font-size: 1.2vw;
-    padding-left: 12%;
-    padding-right: 12%;
+    font-size: clamp(12px, 1.2vw, 1000000px);
+    padding-left: 23%;
+    padding-right: 20%;
+}
+.table_avatar
+{
+    vertical-align: top;
+}
+.dataList
+{
+    list-style-type: square;
+    padding-left: 1%;
+}
+.table
+{
+    padding-left: 23%;
+    padding-right: 23%;
+    border-spacing: 0px;
+}
+.tableData
+{
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 0px;  
+    font-size: clamp(12px, 1.2vw, 1000000px);
+}
+.image
+{
+    padding-left: 23%;
+    padding-right: 23%;
+    width: 60%;
+    height: auto;
+}
+.context
+{
+    text-align: center;
+}
+.link
+{
+    text-align: center;
+    font-size: clamp(12px, 1.2vw, 1000000px);
 }
